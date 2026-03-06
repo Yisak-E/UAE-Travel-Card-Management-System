@@ -18,7 +18,9 @@ import org.springframework.context.annotation.Bean;
 public class TravelcardsystemApplication{
 
     public static void main(String[] args) {
+        System.out.println("Application is running on http://localhost:8080/Travelcardsystem");
         SpringApplication.run(TravelcardsystemApplication.class, args);
+
     }
 
     @Bean
